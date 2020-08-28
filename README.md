@@ -3,9 +3,12 @@
 ## Consideraciones generales :octocat:
 
 Este programa es capaz de simular el juego Combate Naval, jugando contra la computadora. Dentro del programa se puede jugar y ver un registro de los mejores puntajes alcanzados previamente. 
+
 Antes de iniciar el juego, el jugador puede elegir un apodo, y el tamaño del mapa. Ambos sujetos a restricciones.
+
 La computadora puede lanzar bombas normales, mientras que el jugador puede lanzar una bomba normal o una bomba tipo cruz.
 Lamentablemente no pude programar el resto de tipos de bombas, ni tampoco que se pueda lanzar la bomba tipo cruz una sola vez por partida.
+
 Cuando alguno de los jugadores hunde todos los barcos enemigos, el juego se termina, se registra el puntaje en un archivo .txt y se vuelve al menú principal.
 
 ### Cosas implementadas y no implementadas :white_check_mark: :x:
