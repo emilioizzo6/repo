@@ -85,7 +85,7 @@ Lo importante es que expliquen qué hace la función y que si saben que alguna p
 ## Referencias de código externo :book:
 
 Para realizar mi tarea saqué código de:
-1. (https://stackoverflow.com/questions/19782075/how-to-stop-terminate-a-python-script-from-running/34029481): este hace que el archivo deje de ejecutarse y está implementado en el archivo [main.py](../main.py) en la línea 23 y hace que el programa termine su ejecucuón cuando el usuario elige la opción 2 "Salir"
+1. (https://stackoverflow.com/questions/19782075/how-to-stop-terminate-a-python-script-from-running/34029481): este hace que el archivo deje de ejecutarse y está implementado en el archivo [main.py](main.py) en la línea 23 y hace que el programa termine su ejecucuón cuando el usuario elige la opción 2 "Salir"
 
 
 
