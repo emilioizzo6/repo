@@ -11,16 +11,38 @@ Lamentablemente no pude programar el resto de tipos de bombas, ni tampoco que se
 
 Cuando alguno de los jugadores hunde todos los barcos enemigos, el juego se termina, se registra el puntaje en un archivo .txt y se vuelve al menú principal.
 
+
 ### Cosas implementadas y no implementadas :white_check_mark: :x:
 
-* <Nombre item pauta<sub>1</sub>>: Hecha completa
-* <Nombre item pauta<sub>2</sub>>: Me faltó hacer <insertar qué cosa faltó>
-    * <Nombre subitem pauta<sub>2.1</sub>>: Hecha completa 
-    * <Nombre subitem pauta<sub>2.2</sub>>: Me faltó hacer <insertar qué cosa faltó>
-    * ...
-* <Nombre item pauta<sub>3</sub>>: Me faltó hacer <insertar qué cosa faltó>
-* ...
-* <Nombre item pauta<sub>n</sub>>: Me faltó hacer <insertar qué cosa faltó>
+#### Menús ####
+* Menú de Inicio: Hecho completo
+* Ranking de puntajes: Hecho completo
+* Apodo y tamaño del tablero: Hecho completo
+* Menú de juego: Incompleto
+    * Rendirse: Completo
+    * Lanzar una bomba: Incompleto
+        * Selección de coordenada: Incompleto, el programa reconoce cuando una coordenada esta fuera del tablero en la coordenada Y, pero no en la X. Esto debido a que al ingresar una letra que no está en el diccionario, definido en [funciones.py](funciones.py) línea 7, el programa se cierra. Tampoco es capaz de recibir coordenadas inválidas del tipo LetraNumeroLetra.
+        * Elegir tipo de bomba: Incompleto
+    * Salir del programa: Completo
+
+#### Reglas ####
+* Todas se cumplen correctamente, excepto cuando se usa la bomba cruz.
+
+#### Elementos ####
+* Tablero: Creado y manipulado correctamente.
+* Mapa de Jugador y Oponente: Completo
+* Barcos: Completo
+* Bombas: Incompleto
+    * Bomba normal: Completada
+    * Bomba cruz: Esta bomba no fue implementada correctamente. Al acertar a un barco enemigo, no reinicia el turno. Además, se puede lanzar todas las veces que se quiera por partida.
+    * Bomba X: No implementada
+    * Bomba diamante: No implementada
+
+#### Partida ####
+* Crear: Las partidas se crean correctamente.
+* Oponente: El oponente funciona correctamente.
+* Puntajes: El puntaje es asignado correctamente.
+
 
 ## Ejecución :computer:
 El módulo principal de la tarea a ejecutar es  ```main.py```. Además se debe crear los siguientes archivos y directorios adicionales:
@@ -53,7 +75,6 @@ PD: <una última consideración (de ser necesaria) o comentario hecho anteriorme
 
 Para realizar mi tarea saqué código de:
 1. (https://stackoverflow.com/questions/19782075/how-to-stop-terminate-a-python-script-from-running/34029481): este hace que el archivo deje de ejecutarse y está implementado en el archivo [main.py](main.py) en la línea 23 y hace que el programa termine su ejecucuón cuando el usuario elige la opción "[2] Salir" en el menú de inicio
-
 
 
 ## Descuentos
